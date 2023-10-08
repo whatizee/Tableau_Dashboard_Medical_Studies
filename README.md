@@ -1,2 +1,268 @@
 # Tableau_Dashboard_Medical_Studies
 Tableau_dashboard_Clinical_Survey
+Hospital Discharge and CMI - Discharge Details
+- Hospital Service Line
+- Discharges
+- Case Mix Index : Higher CMI more sick patients
+
+Hospital Patient Falls - Patient Fall Details
+- Type of Adult Care Unit
+- Falls WIthout Injury
+- Falls without Injury Rate
+- Falls With Injury Count
+- Falls With Injury Rate
+- Total Falls
+- Total Falls Rate
+- Total Patient Days
+
+US Flu Occurences - Flu occurence from 2015 to 2019 in US
+- Date	
+- Total A (count)	
+- Total B (count)	
+- Total Specimens (count)	
+- Percent of Influenza A	
+- Percent of Influenza B	
+- Percent of Influenza A & B
+
+2018 US Healthcare Expenditures
+- Type of Expenditure	
+- Healthcare Expenditures (in billions)
+
+Obesity Prevalance : Obesity Prevalnace rate for people
+- Date - From 2000 to 2016
+- Sex
+- Age Range	
+- Obesity Prevalence (%)
+
+City Health Ctr FTE Counts - Total Hours worked by an employee
+- City Health Center
+- Budgeted FTE	
+- Actual FTE
+
+Patient Volume YOY Change
+- Date	
+- Patient Visits
+
+Sheet 9 US - HC  EXPENDITURE 1980 -  2018
+
+Category --  
+Total Hospital Expenditure
+Total National Health Expenditure
+Total Physician and Clinical Expenditure
+Total Prescription and Drug Expenditure
+
+
+Type of Service or Source of fund
+Department of Defence
+Department of veterans Affairs
+Medicaid --- Medicaid is a joint federal and state government program in the United States that provides healthcare coverage to low-income individuals and families.
+Medicare
+Other third party  payers  and programs
+Out of pocket
+Private health insurance
+Total CMS Program
+Total Hospital Expenditure
+Total National Health Expenditure
+Total Physician and Clinical Expenditure
+Total Prescription and Drug Expenditure
+
+Date
+Expenditure
+
+
+Sheet provide the relation between category, source of fund and total amount.
+----------------------------------------------------------------------------------------------------------------
+
+
+Sheet 10
+Clinical Patients Metrics
+
+Patient ID
+BP(diastolic) diastolic  -- This is the pressure in your arteries when your heart is at rest between beats.
+BP (Systolic) ---- This is the pressure in your arteries when your heart beats and pumps blood into the arteries.
+Height ----- 
+weight ----
+age
+Sheet provides the information of patients Blood pressure , age and other metrics
+
+
+------------------------------------------------------------------------------------------------------------
+
+Sheet 11
+
+US Cancer Deth rate 1999 - 2016
+
+Leading Cancer Sites.
+Brain and Other Nervous System
+Breast
+Cervix Uteri - refers to the cervix of the uterus
+Colon and Rectum
+Corpus Uteri
+Esophagus
+Gallbladder
+Kidney and Renal Pelvis
+Larynx
+Leukemias
+Liver
+Lung and Bronchus
+Melanoma of the Skin
+Myeloma
+Non-Hodgkin Lymphoma
+Oral Cavity and Pharynx
+Ovary
+Pancreas
+Prostate
+Stomach
+Thyroid
+Urinary Bladder
+
+
+Year 
+Death
+Population
+Age-Adjusted Death Rate ---- An age-adjusted death rate is a statistical measure used to compare the mortality (death) rates between different populations or groups while accounting for differences in age distributions
+
+---------------------------------------------------
+
+Sheet -12 - Clinic Patient Demographics
+
+columns--
+Patient id
+Gender
+Race/ethinicity
+age
+
+
+sheet represent the patient and their age and their race or ethinicity
+-------------------------------------------------------------------------------
+
+Sheet 13
+2018 - MA MVA by County
+
+County
+Motor vehicle accident with injuries(count)
+
+sheet provide the accident and county counts
+
+-------------------------------------------------------
+sheet 14
+MA trauma Hospital
+
+Trauma Hospital
+Trauma Level
+Location
+County
+Trauma Hospital Latitude
+Trauma Hospital Longitude
+ 
+ 
+sheet provide the trauma hospitals level of trauma...location of the hospitals in the county
+
+-------------------------------------------------------------------------
+
+Sheet 15
+Hedis Diabetes - HEDIS, which stands for Healthcare Effectiveness Data and Information Set
+
+HEDIS Measure
+-----Effectiveness of Care
+HEDIS Sub-Measure
+---Comprehensive Diabetes Care, 
+
+HEDIS Sub-Measure Components
+--Eye Exam (Retinal) Performed, 
+--Hemoglobin A1c (HbA1c) Control (< 8.0%), 
+--Hemoglobin A1c (HbA1c) Testing, 
+--Medical Attention for Nephropathy
+
+
+Physician Group 
+--- pratice A to Practice J
+Patients with Measure Performed
+Patients with a Diagnosis of Diabetes
+Compliance Rate---protocols.. values 0 to 0.99
+Target values -- 0.73 to 0.96
+
+---------------------------------------------------------------------------
+Sheet 16
+
+Surgical data
+
+Case Number
+Add-on vs Scheduled Flag
+Primary Surgeon
+Service
+Operating Room
+In Room Date------ 2019
+In Room Date/Time
+Out of Room Date/Time
+Scheduled Start Date/Time
+Scheduled Stop Date/Time
+Room Minutes Actual
+Room Minutes Scheduled
+Turnover (minutes)
+Procedure
+Surgical Site Infection
+
+
+Sheet provides the surgury details like the surgen, expected time, actual time, room selected and the procedure used and whether they are having surgical infection
+
+MVA Deaths by Region 2010-2018  ( Motor Vehicle Accident deaths)
+- Census Region - Regions where the census was conducted
+- year - 2010 -2018
+- Deaths
+- Population
+
+Repeat Lab samples 
+- Root cause of repeat of lab samples 
+- corresponding counts for the root cause 
+
+Opioid Deaths
+- Year (1999- 2018)
+- death column
+- year column
+- Crude rate - is the number of deaths per 100,000 . calulated as (deaths/population)*100,000
+- ICD-10 Code - International classification of diseases (10the revision) associated with the substance
+- ICD-10 description - susbstance used with the ICD code (mostly heroin and other drugs of synthetic make)
+
+Emergency Dept visits
+- visit id -  visit identification 
+- patient(id) - Medical Record Number of the patient
+- Hospital - ranges
+- Visit Date - 2018,2019
+
+Completed Pharm Studies
+- NCT - ClinicalTrials.gov the study was recorded - Reference Number
+- Sponsor - Sponser who funded the studies
+- Title	- Tite of the study
+- Start_Year - Study began year - 2011 - 2018	
+- Start_Month - Study began month
+- Start Date - Study began date
+- Phase	- Different Phases of the study
+- Enrollment - Number of subjects enrolled
+- Status - Status of the study	
+- Condition - Medical condition the study is focused on
+
+
+2017 Cancer Death Rate by State
+- State	
+- Age-Adjusted Rate	
+- Case Count	
+- Population
+
+
+MVA Deaths 1999-2018 - Motor vehicle Accident Death Count
+- Census Region	
+- State Name	
+- Date	
+- Motor Vehicle Accident Death Count	
+- Population
+
+
+Drug Overdose Deaths 1999-2018
+- Census Region	
+- State	
+- Report Date - 1999 to 2018
+- Cause of Death Description	
+- Cause of Death Code	
+- Drug Overdose Death Count	
+- Population
